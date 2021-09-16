@@ -6,7 +6,7 @@ module Pwush
     # https://www.pushwoosh.com/v1.0/reference#createmessage
 
     # YYYY-MM-DD HH:mm  OR 'now'
-    attribute :send_date, Types::Strict::String.default('now').freeze
+    attribute :send_date, Types::Strict::String.default('now'.freeze)
 
     attribute :ignore_user_timezone, Types::Strict::Bool.default(true)
 
