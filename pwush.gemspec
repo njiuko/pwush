@@ -3,14 +3,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'pwush/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'pwush'
+  spec.name          = 'ralph-pwush'
   spec.version       = Pwush::VERSION
-  spec.authors       = ['Yaroslav Litvinov']
-  spec.email         = ['beyondthemkad@gmail.com']
+  spec.authors       = ['Yaroslav Litvinov', 'Ralph von der Heyden']
+  spec.email         = ['beyondthemkad@gmail.com', 'ralph@rvdh.de']
 
   spec.summary       = 'Pushwoosh remote API ruby toolkit'
   spec.description   = spec.summary
-  spec.homepage      = 'https://github.com/iarie/pwush'
+  spec.homepage      = 'https://github.com/ralph/pwush'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
